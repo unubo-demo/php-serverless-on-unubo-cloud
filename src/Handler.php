@@ -13,6 +13,6 @@ class Handler
      * @return
      */
     public function handle($data) {
-        return "PHP serverless on Unubo Cloud."
+        return "PHP serverless on Unubo Cloud.";
     }
 }
