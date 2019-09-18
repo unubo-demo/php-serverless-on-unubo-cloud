@@ -13,6 +13,8 @@ class Handler
      * @return
      */
     public function handle($data) {
+        var_dump($_SERVER);
+        phpinfo();
         return "PHP serverless on Unubo Cloud.";
     }
 }
